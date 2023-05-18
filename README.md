@@ -22,7 +22,7 @@ As tecnologias utilizadas neste projeto foram:
 
 ##  Projeto
 
-Projeto desenvolvido em um intensivo de 15 dias que visa realizar sorteio de números através de um aplicativo utilizando HTML, CSS e JavaScript.
+Projeto desenvolvido em um intensivo de 15 dias que visa realizar sorteio de nomes através de um aplicativo utilizando HTML, CSS e JavaScript.
 
 
 ---
