@@ -33,6 +33,7 @@ header h1 {
     justify-content: center;
     align-items: center;
     height: 500px;
+    position: relative;
 }
 
 section {
@@ -68,14 +69,40 @@ section h2 {
     left: -100%;
     width: 100%;
     height: 100%;
-    background-color: rgb(46 20 68 / 86%);
-    transition: .5s;
+    background-color: rgb(4 20 62 / 89%);
+    transition: 0.5s;
  }
-
+ 
  .resultado.mostrarResultado {
      left: 0;
-     transition: .5s;
+     transition: 0.5s;
  }
+ .resultado span {
+    float: right;
+    margin: 20px;
+    color: #fff;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border: solid #fff 2px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+ }
+ .resultado p {
+    text-align: center;
+    color: #ffff;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+ }
+
  section button {
     background-color: #1480fa;
     border: none;

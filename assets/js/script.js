@@ -5,7 +5,7 @@ const popUpResultado = document.querySelector (".resultado")
 const btnFechar = document.querySelector(".fechar")
 
 function pegarDadosFormulario() {
-    const valorCampo = textarea.velue
+    const valorCampo = textarea.value
     const listaNomes = valorCampo.split(",")
     const tamanhoArray = listaNomes.length
     const posicaoNome = gerarNumeroAleatorio(tamanhoArray)
@@ -22,10 +22,15 @@ function gerarNumeroAleatorio(tamanhoArray) {
 
 }
 
-function mostrarResultado() {
+function mostrarResultado(nome) {
+    tagResultado.innerText = `Resultado: ${nome}`
+    popUpResultado.classList.add("mostrarResultado")
 
 }
 
 function fecharPopUp(){
+    popUpResultado.classList.remove('mostrarResultado')
 
 }
+
+btnFechar.addEventListener("click", fecharPopUp)
